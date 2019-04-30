@@ -1,44 +1,26 @@
-.naam_a {
+.naam_a, .naam_b {
     width: 25px;
     height: 25px;
     color: red;
     background-color: grey;
     text-align: center;
 }
-/*
-.naam_b {
-    width: 25px;
-    height: 25px;
-    color: red;
+
+.abel, .berend {
+    display: block;
+    width: 250px;
+    height: 250px;
+    color: white;
     background-color: grey;
     text-align: center;
 }
-*/
-.abel {
-    display: none;
-    width: 250px;
-    height: 250px;
-    background-color: black;
-}
-/*
-.berend {
-    display: none;
-    width: 250px;
-    height: 250px;
-    background-color: black;
-}
-*/
-.naam_a:focus + .abel {
+
+.naam_a:focus /*+ .abel*/ {
     display: block;
-    color: white;
-    background-color: blue;
-    text-align: center;
+    background-color: red;
 }
-/*
-.naam_b:focus + .berend {
+
+.naam_b:focus /*+ .berend*/ {
     display: block;
-    color: white;
-    background-color: blue;
-    text-align: center;
+    background-color: red;
 }
-*/
