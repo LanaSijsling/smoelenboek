@@ -1,11 +1,22 @@
 p {
-    color:orange;
+    display: inline;
+    float: left;
+    width: 250px;
+    height: 50px;
+    background-color: grey;
+    text-align: center;
 }
 
-#checkboxmen:checked ~ * .men {
-    color: blue;
+img {
+    width: 250px;
+    filter: grayscale(100%)
+}
+#checkboxmen:checked ~ * .men img {
+    background-color: blue;
+    filter: grayscale(0%)
 }
 
-#checkboxwomen:checked ~ * .women {
-    color: red;
+#checkboxwomen:checked ~ * .women img{
+    background-color: red;
+    filter: grayscale(0%)
 }
