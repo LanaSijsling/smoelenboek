@@ -5,8 +5,9 @@
 - [x] foto's veranderen in links, met links naar de profiel pagina's
 
 # uitbreiden
-- [ ] nieuwe schets maken voor desktop model
-- [ ] bestaande img/links index(test).html overzetten naar grid
+- [x] nieuwe schets maken voor desktop model
+- [x] grid aangemaakt
+- [ ] bestaande img/links index(test).html invoegen in de grid
 - [ ] layout veranderen zodat alle pagina's zelfde style hebben
 - [ ] samenvoegen index(test).html en index.html 
 - [ ] module toevoegen voor keuzes, eerst alleen man/vrouw
