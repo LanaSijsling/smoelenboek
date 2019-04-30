@@ -1,3 +1,31 @@
+.item1 {grid-area: header;}
+.item2 {grid-area: keuzemenu;}
+.item3 {grid-area: profiel1;}
+.item4 {grid-area: profiel2;}
+.item5 {grid-area: profiel3;}
+.item6 {grid-area: profiel4;}
+.item7 {grid-area: profiel5;}
+.item8 {grid-area: profiel6;}
+.item9 {grid-area: profiel7;}
+.item10 {grid-area: profiel8;}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'header header header header header'
+        'keuzemenu profiel1 profiel2 profiel3 profiel4'
+        'keuzemenu profiel5 profiel6 profiel7 profiel8';
+    grid-gap: 10px;
+    background-color: blue;
+    padding: 10px;
+}
+
+.grid-container div {
+    background-color: lightgrey;
+    text-align: center;
+    padding: 20px 0;
+}
+/*
 p {
     display: inline;
     float: left;
@@ -20,3 +48,4 @@ img {
     background-color: red;
     filter: grayscale(0%)
 }
+*/
