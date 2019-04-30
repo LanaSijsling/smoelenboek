@@ -1,0 +1,44 @@
+.naam_a {
+    width: 25px;
+    height: 25px;
+    color: red;
+    background-color: grey;
+    text-align: center;
+}
+/*
+.naam_b {
+    width: 25px;
+    height: 25px;
+    color: red;
+    background-color: grey;
+    text-align: center;
+}
+*/
+.abel {
+    display: none;
+    width: 250px;
+    height: 250px;
+    background-color: black;
+}
+/*
+.berend {
+    display: none;
+    width: 250px;
+    height: 250px;
+    background-color: black;
+}
+*/
+.naam_a:focus + .abel {
+    display: block;
+    color: white;
+    background-color: blue;
+    text-align: center;
+}
+/*
+.naam_b:focus + .berend {
+    display: block;
+    color: white;
+    background-color: blue;
+    text-align: center;
+}
+*/
