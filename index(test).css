@@ -1,26 +1,11 @@
-.naam_a, .naam_b {
-    width: 25px;
-    height: 25px;
+p {
+    color:orange;
+}
+
+#checkboxmen:checked ~ * .men {
+    color: blue;
+}
+
+#checkboxwomen:checked ~ * .women {
     color: red;
-    background-color: grey;
-    text-align: center;
-}
-
-.abel, .berend {
-    display: block;
-    width: 250px;
-    height: 250px;
-    color: white;
-    background-color: grey;
-    text-align: center;
-}
-
-.naam_a:focus /*+ .abel*/ {
-    display: block;
-    background-color: red;
-}
-
-.naam_b:focus /*+ .berend*/ {
-    display: block;
-    background-color: red;
 }
