@@ -7,13 +7,11 @@
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
             <script>
                 $(document).ready(function(){
-                        console.log($("#buttonmen"));
                         $("#buttonmen").click(function(){
-                                console.log($(".man").css("background-color", "blue"));
+                                $(".man").css("background-color", "blue");
                         });
-                        console.log($("#buttonwomen"));
                         $("#buttonwomen").click(function(){
-                                console.log($(".woman").css("background-color", "red"));
+                                $(".woman").css("background-color", "red");
                         });
                 });
             </script>
@@ -27,10 +25,22 @@
                         <input type="button" value="Man" id="buttonmen" /></br>
                         <input type="button" value="Vrouw" id="buttonwomen" />
                 </div>
-                <div class="item3 man">Aarnoud</div>
-                <div class="item4 woman">Harriet</div>
-                <div class="item5 woman">Lana</div>
-                <div class="item6 man">Lucien</div>
+                <div class="item3 man">
+                        <a href="aarnoud.html">
+                        <img src="img/aarnoud_small.jpg" alt="foto van Aarnoud"></a>
+                        </br>Aarnoud</div>
+                <div class="item4 woman">
+                        <a href="harriet.html">
+                        <img src="img/harriet_small.jpg" alt="foto van Harriet"></a>
+                        </br>Harriet</div>
+                <div class="item5 woman">
+                        <a href="lana.html">
+                        <img src="img/lana_small.jpg" alt="foto van Lana"></a>
+                        </br>Lana</div>
+                <div class="item6 man">
+                        <a href="lucien.html">
+                        <img src="img/lucien_small.jpg" alt="foto van Lucien"></a>
+                        </br>Lucien</div>
                 <div class="item7">Profiel 5</div>
                 <div class="item8">Profiel 6</div>
                 <div class="item9">Profiel 7</div>
