@@ -4,22 +4,33 @@
             <meta charset="UTF-8">
             <title>The web site of smoelenboek</title>
             <link href="index(test).css" rel="stylesheet" type="text/css" media="all">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script>
+                $(document).ready(function(){
+                        console.log($("#buttonmen"));
+                        $("#buttonmen").click(function(){
+                                console.log($(".man").css("background-color", "blue"));
+                        });
+                        console.log($("#buttonwomen"));
+                        $("#buttonwomen").click(function(){
+                                console.log($(".woman").css("background-color", "red"));
+                        });
+                });
+            </script>
     </head>
 
     <body>
-                
         
-
         <div class="grid-container">
                 <div class="item1">Header</div>
                 <div class="item2"> <h3>Keuzemenu</h3> </br>
-                        <input type="checkbox" id="checkboxmen" /> Men </br>
-                        <input type="checkbox" id="checkboxwomen" /> Women
+                        <input type="button" value="Man" id="buttonmen" /></br>
+                        <input type="button" value="Vrouw" id="buttonwomen" />
                 </div>
-                <div class="item3 men">Aarnoud</div>
-                <div class="item4 women">Harriet</div>
-                <div class="item5 women">Lana</div>
-                <div class="item6 men">Lucien</div>
+                <div class="item3 man">Aarnoud</div>
+                <div class="item4 woman">Harriet</div>
+                <div class="item5 woman">Lana</div>
+                <div class="item6 man">Lucien</div>
                 <div class="item7">Profiel 5</div>
                 <div class="item8">Profiel 6</div>
                 <div class="item9">Profiel 7</div>
