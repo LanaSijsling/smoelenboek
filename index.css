@@ -1,4 +1,5 @@
 body {
+    margin: 0px;
     background-color: #E6E6FA;
 }
 
@@ -22,29 +23,32 @@ body {
     grid-column-gap: 10px;
     grid-row-gap: 0px;
     background-color: #E6E6FA;
-    padding: 10px;
+    /*padding: 10px;*/
 }
 
 .grid-container div {
-    background-color: #DDA0DD;
+    background-color: #9370DB;
     padding: 20px 0;
 }
 
 .item1 {
     text-align: center;
+    border-radius: 0 0 25px 0;
 }
 .item2 *{
-    margin-left:5px;
+    margin-left:10px;
 }
 
 .item2{
     text-align: left;
+    border-radius: 0 0 25px 0;
 }
+
 #buttonmen, #buttonwomen {
     display: inline-block;
     width: fill;
     padding: 5px 10px;
-    background-color: #8B008B;
+    background-color: #4B0082;
     color: #E6E6FA;
     font-weight: bold;
     font-size: 16px;
@@ -68,5 +72,5 @@ img {
     filter: grayscale(100%);
     border-radius: 100%;
     /*box-shadow: 0 0 1px 3px #DDA0DD inset;*/
-    border: 5px solid #DDA0DD;  
+    border: 5px solid #9370DB;  
 }
