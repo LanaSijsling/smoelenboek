@@ -21,17 +21,32 @@
 }
 
 .grid-container div {
-    background-color: lightgrey;
+    background-color: white;
     padding: 20px 0;
 }
 
 .item1 {
     text-align: center;
 }
+.item2 *{
+    margin-left:5px;
+}
 
 .item2{
     text-align: left;
 }
+#buttonmen, #buttonwomen {
+    display: inline-block;
+    width: fill;
+    padding: 5px 10px;
+    background-color: #8B008B;
+    color: #E6E6FA;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px solid #4B0082;
+}
+
 .item2 h3 {
     text-decoration: underline;
 }
