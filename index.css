@@ -67,4 +67,6 @@ img {
     height: 300px;
     filter: grayscale(100%);
     border-radius: 100%;
+    /*box-shadow: 0 0 1px 3px #DDA0DD inset;*/
+    border: 5px solid #DDA0DD;  
 }
