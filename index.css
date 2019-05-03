@@ -73,7 +73,7 @@ body {
 img {
     max-width: 100%;
     height: 300px;
-    filter: grayscale(100%);
+    /*filter: grayscale(100%);*/
     border-radius: 100%;
     /*box-shadow: 0 0 1px 3px #DDA0DD inset;*/
     border: 5px solid #9370DB;  
