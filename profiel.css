@@ -8,25 +8,16 @@ body {
 
 .item1 {grid-area: header;}
 .item2 {grid-area: keuzemenu;}
-.item3 {grid-area: profiel1;}
-.item4 {grid-area: profiel2;}
-.item5 {grid-area: profiel3;}
-.item6 {grid-area: profiel4;}
-.item7 {grid-area: profiel5;}
-.item8 {grid-area: profiel6;}
-.item9 {grid-area: profiel7;}
-.item10 {grid-area: profiel8;}
+.item3 {grid-area: profiel;}
 
 .grid-container {
     display: grid;
     grid-template-areas:
         'header header header header header'
-        'keuzemenu profiel1 profiel2 profiel3 profiel4'
-        'keuzemenu profiel5 profiel6 profiel7 profiel8';
+        'keuzemenu profiel profiel profiel profiel';
     grid-column-gap: 10px;
     grid-row-gap: 0px;
     background-color: #E6E6FA;
-    /*padding: 10px;*/
 }
 
 .grid-container div {
@@ -38,17 +29,18 @@ body {
     text-align: center;
     border-radius: 0 0 25px 0;
 }
+
 .item2 *{
     margin-left:10px;
 }
 
-.item2{
+.item2 {
     width: 200px;
     text-align: left;
     border-radius: 0 0 25px 0;
 }
 
-#buttonmen, #buttonwomen {
+#back {
     display: inline-block;
     width: fill;
     padding: 5px 10px;
@@ -60,21 +52,8 @@ body {
     border: 2px solid #4B0082;
 }
 
-.item2 h3 {
-    text-decoration: underline;
-}
-
-.item3, .item4, .item5, .item6, .item7, .item8, .item9, .item10 {
+.item3 {
     text-align: center;
     margin-top: 10px;
     border-radius: 25px;
-}
-
-img {
-    max-width: 100%;
-    height: 300px;
-    filter: grayscale(100%);
-    border-radius: 100%;
-    /*box-shadow: 0 0 1px 3px #DDA0DD inset;*/
-    border: 5px solid #9370DB;  
 }

@@ -11,6 +11,6 @@
 - [x] samenvoegen index(test).html en index.html 
 - [x] module toevoegen voor keuzes, eerst alleen man/vrouw (jQuery)
 - [x] bij keuze moeten de geselecteerde foto's naar voren komen (jQuery)
-- [ ] layout veranderen zodat alle pagina's zelfde style hebben
+- [x] layout veranderen zodat alle pagina's zelfde style hebben
 - [ ] andere citeria aan personen toevoegen
 - [ ] keuze mogelijkheden toevoegen aan keuze module
