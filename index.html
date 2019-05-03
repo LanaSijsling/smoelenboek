@@ -24,19 +24,27 @@
                                 }
                                 else if (this.id == "buttonwomen")
                                 {
-                                        $("#buttonwomen").css({"border":"2px solid white"});
+                                        if ($(this).css("border") == "2px solid rgb(75, 0, 130)")
+                                                {
+                                                $(".woman img").css({"border":"5px solid #4B0082"});
+                                                $("#buttonwomen").css({"border":"2px solid white"});
+                                        }
+                                        else
+                                        {
+                                                $(".woman img").css({"border":"5px solid #9370DB"});
+                                                $("#buttonwomen").css({"border":"2px solid #4B0082"});
+                                        }
                                 }
                         });
-
-                //        $("#buttonmen").click(function(){
-                //                $(".man img").css({"filter":"grayscale(0%)", "border":"5px solid #4B0082"});
-                //                $(".woman img").css({"filter":"grayscale(100%)"});
-        	//                });
-                //        $("#buttonwomen").click(function(){
-                //                $(".woman img").css({"filter":"grayscale(0%)", "border":"5px solid #4B0082"});
-                //                $(".man img").css({"filter":"grayscale(100%)"});
-                //        });
                 });
+                /*        $("#buttonmen").click(function(){
+                               $(".man img").css({"filter":"grayscale(0%)", "border":"5px solid #4B0082"});
+                                $(".woman img").css({"filter":"grayscale(100%)"});
+        	                });
+                        $("#buttonwomen").click(function(){
+                                $(".woman img").css({"filter":"grayscale(0%)", "border":"5px solid #4B0082"});
+                                $(".man img").css({"filter":"grayscale(100%)"});
+                        });*/
             </script>
     </head>
 
