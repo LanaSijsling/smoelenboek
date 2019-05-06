@@ -1,4 +1,7 @@
 # smoelenboek
+
+Live demo: https://lanasijsling.github.io/smoelenboek/
+
 - [x] lijst met namen toevoegen
 - [x] checkbox werken man/vrouw wordt geselecteerd
 - [x] foto's toegevoegd, foto's veranderen van grijs naar kleur wanneer man/vrouw gecheckt.
